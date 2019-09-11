@@ -2,11 +2,13 @@
   text-align: center;
 }
 .poke__card-wrapper{
-  max-width: 40%;
-  min-width: 120px;
-  background-color: antiquewhite;
-  border-radius: 20px;
   box-sizing: border-box;
+  margin: 15px;
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+  display: flex;
+  flex-direction: row wrap;
 }
 .poke__name {
   border-top: 2px solid black;
@@ -19,6 +21,10 @@
   flex-direction: row;
   padding-inline-start: 10px;
 }
+.poke__types{
+  text-align: center;
+  padding-inline-start: 0;
+}
 .poke__types-type{
   margin-top: 0px;
   margin-left: 8px;
@@ -26,4 +32,16 @@
   padding: 5px;
   border-radius: 30px;
   background-color: rgba(84, 82, 76,0.3)
+}
+.poke__list-style{
+  padding-inline-start: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
+  height: auto;
+  background-color: antiquewhite;
+  max-width: 40%;
+  min-width: 120px;
+  border-radius: 20px;
+  margin: 15px;
 }
