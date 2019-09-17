@@ -1,6 +1,7 @@
 {
   "name": "poke",
   "version": "0.1.0",
+  "homepage": "http://marpri-17.github.io/myapp",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
